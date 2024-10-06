@@ -15,7 +15,7 @@ with st.sidebar:
 st.header('Welcome To')
 
 # Load the dataset
-data = pd.read_csv('all_data.csv')
+data = pd.read_csv('dashboard/all_data.csv')
 
 # Title of the dashboard
 st.title('Bike Sharing Analysis Dashboard')
